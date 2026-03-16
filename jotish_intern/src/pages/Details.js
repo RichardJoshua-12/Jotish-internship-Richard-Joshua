@@ -19,6 +19,7 @@ function Details() {
       .then((stream) => {
         videoRef.current.srcObject = stream;
       })
+      
       .catch((err) => {
         console.log("Camera error:", err);
       });
