@@ -1,0 +1,24 @@
+.analytics-container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.audit-section {
+  margin-bottom: 40px;
+}
+
+.audit-image {
+  width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.chart-section {
+  margin-top: 30px;
+}
+
+svg {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+}

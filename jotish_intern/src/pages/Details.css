@@ -1,0 +1,39 @@
+.details-container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.video {
+  width: 400px;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #2f80ed;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1c5ed6;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper img {
+  width: 400px;
+}
+
+.signature-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

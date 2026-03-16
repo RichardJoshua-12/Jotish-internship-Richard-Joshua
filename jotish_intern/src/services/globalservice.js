@@ -1,8 +1,6 @@
 import { API_BASE_URL } from "../config";
 export const PostMethod = async (payload) => {
-
   try {
-
     const response = await fetch(
       API_BASE_URL,
       {
@@ -13,15 +11,10 @@ export const PostMethod = async (payload) => {
         body: JSON.stringify(payload)
       }
     );
-
     const data = await response.json();
-
     return data;
-
   } catch (error) {
-
     console.error("API Fetch Error:", error);
     return null;
-
   }
 };
